@@ -1,18 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
+import CadastroPet from './screens/CadastroPet/cadastropet';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Bem vindo ao Da Vinci Pets</Text>
-    </View>
+    <CadastroPet />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
